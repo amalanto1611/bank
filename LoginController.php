@@ -19,6 +19,9 @@ class LoginController extends Controller
     {
         //dd($id);
         dd($id);
+        dd($id);
+        dd($id);
+        
         return view('dasboard', compact('email', 'name', 'id', 'balance'));
     }
     public function signup()
